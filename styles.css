@@ -50,7 +50,7 @@ main{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 45%;
+    top: 20vw;
 }
 button{
     font-size: clamp(0.8rem, 1.3vw, 1.5rem);
@@ -269,7 +269,7 @@ input[type="checkbox"]{
     background-color: white;
     padding: 3vw;
     border-radius: 1vw;
-    transform: translateY(-140%);
+    transform: translateY(-110vw);
     transition: transform 0.5s ease-in;
     h2{
         font-size: clamp(1.3rem, 2.1vw, 3.2rem);
@@ -303,7 +303,7 @@ form label:hover > p{
     color: var(--Moderatecyan);
 }
 .backclicked{
-    transform: translateY(-15%);
+    transform: translateY(-8vw);
     box-shadow: 0 0 0 5000px rgb(0,0,0,0.4);
 }
 .cross{
@@ -441,7 +441,7 @@ label:hover{
     flex-direction: column;
     align-items: center;
     border-radius: 1vw;
-    transform: translateY(-165%);
+    transform: translateY(-65vw);
     transition: transform 0.5s ease-in;
     h2{
         font-size: clamp(1.3rem, 2.2vw, 3rem);
@@ -454,7 +454,7 @@ label:hover{
 }
 .thanksclicked{
     box-shadow: 0 0 0 5000px rgb(0,0,0,0.4);
-    transform: translateY(-25%);
+    transform: translateY(-12vw);
 }
 footer{
     position: absolute;
@@ -528,7 +528,7 @@ footer{
         align-items: center;
         width: 85%;
         position: absolute;
-        top: 44%;
+        top: 62vw;
     }
     button{
         font-size: clamp(1rem, 1.5vw, 1.7rem);
@@ -664,7 +664,7 @@ footer{
         background-color: white;
         padding: 6vw;
         border-radius: 2vw;
-        transform: translateY(-124%);
+        transform: translateY(-360vw);
         h2{
             font-size: clamp(1.3rem, 2vw, 3.2rem);
             line-height: clamp(1.4rem, 2vw, 3.3rem);
@@ -692,7 +692,7 @@ footer{
         }
     }
     .backclicked{
-        transform: translateY(-10%);
+        transform: translateY(-30vw);
         box-shadow: 0 0 0 5000px rgb(0,0,0,0.4);
     }
     .cross{
@@ -802,7 +802,7 @@ footer{
         box-shadow: inset 0 0 0 1.3vw white;
     }
     .thanks{
-        top: 21vw;
+        top: 30vw;
         width: 85%;
         padding: 8vw;
         background-color: white;
@@ -811,7 +811,7 @@ footer{
         flex-direction: column;
         align-items: center;
         border-radius: 1vw;
-        transform: translateY(-230%);
+        transform: translateY(-120vw);
         transition: transform 0.5s ease-in;
         h2{
             font-size: clamp(1.3rem, 2.2vw, 3rem);
@@ -823,9 +823,6 @@ footer{
         }
     }
     .thanksclicked{
-        transform: translateY(0%);
-    }
-    footer{
-        top: 0;
+        transform: translateY(5vw);
     }
 }
